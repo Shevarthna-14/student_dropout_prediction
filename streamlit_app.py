@@ -5,7 +5,7 @@ import joblib
 from tensorflow.keras.models import load_model
 from sklearn.preprocessing import StandardScaler
 
-model = joblib.load(r'C:\Users\admin\Downloads\model.pkl')
+model = joblib.load('model.pkl')
 
 # List of features based on the dataset
 features = [

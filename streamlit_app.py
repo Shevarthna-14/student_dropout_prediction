@@ -54,10 +54,10 @@ if st.button('Predict'):
     prediction = np.argmax(model.predict(input_df), axis=-1)
 
     if prediction[0]==0:
-    st.write('Prediction: Dropout')
+        st.write('Prediction: Dropout')
 
     elif prediction[0]==1:
-    st.write('Prediction: Enrolled')
+        st.write('Prediction: Enrolled')
 
     else:
-    st.write('Prediction: Graduate')
+        st.write('Prediction: Graduate')
